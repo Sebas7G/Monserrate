@@ -1,0 +1,175 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    @font-face
+    {font-family: demo;
+    src: url(rasgos-distintivos/fuentes/TypoGraphica_demo.otf);}
+    
+    @font-face{
+        font-family: trial;
+        src: url(rasgos-distintivos/fuentes/TT\ Octas\ Trial\ Regular.otf);
+    }    
+
+    #menu{
+
+
+        width: 100%;
+        padding: 0 0 0 0;
+        background-image: url(rasgos-distintivos/imagen/mision-vision.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    
+    #menu #potato{
+    
+        width: 15%;
+        margin: 4em 50em 4em 50em;
+        border-radius: 10em;
+        background-color: aliceblue;
+        
+    }
+    
+    #menu section {
+        border: solid black;
+        border-width: 0.2em;
+        padding:1.5em 0 1.5em 0;
+        margin: 0 0 0 0;
+        background-color: green;
+        border-top-left-radius: 2.5em;
+        border-top-right-radius: 2.5em;
+    }
+    
+    #menu section ul {
+    
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    #menu section ul a button{
+    
+        border: none;
+        color: white;
+        background-color: transparent;
+        font-size: 1.5em;
+        
+    }
+    
+    #menu section ul a button:hover {
+        color: rgb(14, 195, 215);
+      }
+    body{background-color: #A1F56B;}
+
+div h1{ text-align: center;
+font-family: demo;
+font-size: 60px;
+color: #19572A;}
+div h2{font-family: demo;
+font-size:40px;
+color: #19572A;}
+.sc1{margin: 1em 1em 1em 1em;}
+.sc2{margin: 1em 1em 1em 1em;}
+.sc1 h2{ text-align: center;
+margin-top: 2em;}
+.sc2 h2{text-align: center;
+margin-top: 2em;}
+.sc1 p{font-family: trial;
+font-size: 19px;
+margin: 1em 5em 5em 5em;
+line-height: 1.9;}
+.sc2 p{font-family: trial;
+    font-size: 19px;
+margin: 1em 5em 5em 5em;
+line-height: 1.9;}
+#sc3  {
+    display: grid;
+    grid-template-columns: 1fr;
+place-items: center; }
+#sc3 .al {width: 100VH;
+margin: 1em 0 10em 0;
+border-radius: 10px 10px 10px 10px;}
+
+#g{ display: grid;
+    grid-template-columns: 1fr;
+place-items: center;}
+#g img{ width: 80vh;}
+
+
+#piepag {
+  
+        background-color: green;; 
+        color: #fff; 
+        padding: 1.25em 0;
+        text-align: center;
+        margin: 0 0 0 0 ;
+        order: solid black;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-width: 0.3em; 
+    }
+    
+    #piepag p{
+    
+        font-family: trial;
+        font-size: 1.2em;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .social-icons a {
+        display: inline-block;
+        margin: 0 0.625em;
+    }
+    
+    .social-icons img {
+        width: 65%;
+    
+     }
+
+     @media only screen and (max-width:600px) {
+
+        body{background-color:#A1F56B ;}
+        div h1{ font-size: 40px;}
+        div h2 {font-size: 30px;}
+        .sc1 p {margin: 1em 1em 1em 1em;}
+        .sc2 p {margin: 1em 1em 1em 1em;}
+        #sc3 .al {width: 95%;
+         }
+
+        #g img {width: 95%;
+        }
+
+        #menu #potato{
+
+            width: 30% !important;
+            margin: 2em 11em 2em 11em !important;
+            border-radius: 10em;
+            background-color: aliceblue;
+            
+        }
+    
+        #menu section {
+            border: solid black;
+            border-width: 0.2em;
+            padding:1.5em 0 1.5em 0;
+            margin: 0 0 0 0 !important;
+            background-color: green;
+            border-top-left-radius: 2.5em;
+            border-top-right-radius: 2.5em;
+        }
+
+
+
+
+
+
+
+
+     }
+

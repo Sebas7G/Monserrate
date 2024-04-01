@@ -1,0 +1,212 @@
+@font-face {
+    font-family: TypoGraphica;
+    src: url(fonts/typographica/TypoGraphica_demo.otf);
+}
+
+@font-face {
+    font-family: Papon;
+    src: url(fonts/tt_octas/TT\ Octas\ Trial\ Regular.otf); 
+}
+
+@media only screen and (max-width: 600px){
+
+    #menu{
+
+
+        width: 100%;
+        padding: 1em 0 0 0;
+        background-image: url(imgs/mision-vision2.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #menu #potato{
+
+        width: 30% !important;
+        margin: 2em 11em 2em 11em !important;
+        border-radius: 10em;
+        background-color: aliceblue;
+        
+    }
+
+    #menu section {
+        border: solid black;
+        border-width: 0.2em;
+        padding:1.5em 0 1.5em 0;
+        margin: 0 0 0 0 !important;
+        background-color: green;
+        border-top-left-radius: 2.5em;
+        border-top-right-radius: 2.5em;
+    }
+
+    #menu section ul {
+
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    #menu section ul a button{
+    
+        border: none;
+        color: white;
+        background-color: transparent;
+        font-size: 1em !important;
+        
+    }
+}
+
+
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+p {
+
+    margin: 1em 0 2em 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+h2{
+
+    margin: 2em 0 2.5em 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(Monserrate-Pag-Atracciones/imgs/MONSERRATE\ 2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu{
+
+
+    width: 100%;
+    padding: 0 0 0 0;
+    background-image: url(imgs/mision-vision.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#menu #potato{
+
+    width: 15%;
+    margin: 4em 50em 4em 50em;
+    border-radius: 10em;
+    background-color: aliceblue;
+    
+}
+
+#menu section {
+    border: solid black;
+    border-width: 0.2em;
+    padding:1.5em 0 1.5em 0;
+    margin: 0 0 0 0;
+    background-color: green;
+    border-top-left-radius: 2.5em;
+    border-top-right-radius: 2.5em;
+}
+
+#menu section ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#menu section ul a button{
+
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+    
+}
+
+#menu section ul a button:hover {
+    color: rgb(14, 195, 215);
+  }
+section {
+    background-color: #1aa152;
+    color: #fff;
+    padding: 20px;
+    margin: 4em 0 0 0;
+    text-align: center;
+    border: black;
+    border-width: 1.5em
+}
+
+
+h1 {
+    margin-top: 0;
+}
+.containers {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.attraction {
+    margin-bottom: 20px;
+}
+.attraction img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.attraction h2 {
+    margin-top: 0;
+}
+.attraction p {
+    margin-bottom: 0;
+}
+
+#piepag {
+    border: solid black;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-width: 0.3em;
+}
+
+#piepag {
+    background-color: green;; 
+    color: #ffffff; 
+    padding: 1.25em 0 0 0 ;
+    text-align: center;
+}
+
+#piepag p{
+
+    font-family: Papon;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 0.625em;
+}
+
+.social-icons img {
+    width: 65%;
+}

@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: titulo;
+    src: url(monserrate/fonts/TypoGraphica_demo.otf);
+}
+@font-face {
+    font-family: parrafo;
+    src: url(monserrate/fonts/TT\ Octas\ Trial\ Regular.otf);
+}
+
+@media only screen and (max-width:600px) {
+
+
+    #menu #potato{
+
+        width: 30% !important;
+        margin: 2em 11em 2em 11em !important;
+        border-radius: 10em;
+        background-color: aliceblue;
+        
+    }
+
+    #menu section {
+        border: solid black;
+        border-width: 0.2em;
+        padding:1.5em 0 1.5em 0;
+        margin: 0 0 0 0 !important;
+        background-color: green;
+        border-top-left-radius: 2.5em;
+        border-top-right-radius: 2.5em;
+    }
+
+
+
+
+
+
+
+}
+body{
+    background-image: url(monserrate/img/monserrate2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;    
+}
+#menu{
+
+
+    width: 100%;
+    padding: 0 0 0 0;
+    background-image: url(monserrate/img/mision-vision.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#menu #potato{
+
+    width: 15%;
+    height: 10%;
+    margin: 4em 50em 4em 50em;
+    border-radius: 10em;
+    background-color: aliceblue;
+    
+}
+
+#menu section {
+    border: solid black;
+    border-width: 0.2em;
+    padding:1.5em 0 1.5em 0;
+    margin: 0 0 0 0;
+    background-color: green;
+    border-top-left-radius: 2.5em;
+    border-top-right-radius: 2.5em;
+}
+#menu section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#menu section ul a button{
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#menu section ul a button:hover {
+    color: rgb(14, 195, 215);
+}
+h1{
+    color: white;
+    padding: 2em;
+    font-size:  80px;
+    border-radius: 1em 1em 1em 1em;   
+}
+#asesino{
+    display: grid;
+    gap: 2em;
+    grid-template-columns:  0.5fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr;
+}
+#titulo{
+    display: flex; justify-content: center;
+}
+#d1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+    
+}
+#d2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+    padding: 3em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+#d11{
+    padding: 2em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+#d12{
+    margin: 2em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+    padding: 2em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+img{
+    width: 30em;
+    height: 20em;
+}
+#sc2{
+    display: grid;
+    grid-template-columns:  0.5fr 0.5fr;
+    grid-template-rows: 50em;
+}
+#sc3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 3em;
+}
+#sc4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+    padding: 2em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+h2{
+    font-family: texto;
+}
+p{
+    font-family: parrafo;
+}
+#piepag {
+    background-color: green;; 
+    color: #fff; 
+    padding: 1.25em 0;
+    text-align: center;
+}
+
+#piepag p{
+    font-family: parrafo;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 0.625em;
+}
+
+.social-icons img {
+    width: 65%;
+    height: 40%;
+}

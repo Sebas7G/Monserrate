@@ -1,0 +1,229 @@
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+@font-face
+{font-family: demo;
+src: url(monserrate-fli-fli/fuentes/TypoGraphica_demo.otf);}
+
+@font-face{
+    font-family: trial;
+    src: url(monserrate-fli-fli/fuentes/TT\ Octas\ Trial\ Regular.otf);
+}
+
+#menu{
+
+
+    width: 100%;
+    padding: 0 0 0 0;
+    background-image: url(monserrate-fli-fli/imagenes/mision-vision.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#menu #potato{
+
+    width: 15%;
+    margin: 4em 50em 4em 50em;
+    border-radius: 10em;
+    background-color: aliceblue;
+    
+}
+
+#menu section {
+    border: solid black;
+    border-width: 0.2em;
+    padding:1.5em 0 1.5em 0;
+    margin: 0 0 0 0;
+    background-color: green;
+    border-top-left-radius: 2.5em;
+    border-top-right-radius: 2.5em;
+}
+
+#menu section ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#menu section ul a button{
+
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+    
+}
+
+#menu section ul a button:hover {
+    color: rgb(14, 195, 215);
+  }
+
+
+body{
+    background-repeat: no-repeat;
+background-size: 90%;   
+background-color: #B6F3EC;
+
+  
+}
+
+
+#fundadores h1{font-family: demo;
+font-size: 70px;
+color: #710862;}
+
+.png{ width: 100%;}
+
+#fundadores{ display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+#años .mas {
+    font-family: trial;
+    display: grid;
+    place-items: center;
+    margin: 1em 1em 1em 1em;
+}
+
+#años .bb{ width: 75%;}
+#años h2{ font-family: demo;
+font-size: 35px;
+color: #710862;
+}
+#años p{font-size: 19px;
+line-height: 1.8;}
+
+#años .menos {
+    font-family: trial;
+     display: grid;
+place-items: center;
+margin: 1em 1em 1em 1em;
+}
+
+#años h2{font-family: demo;}
+
+
+
+#años{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-direction: column;
+margin-top: 2em;}
+
+#importancia{
+    justify-content: center;
+    margin-top: 2em;
+    margin: 1em 1em 1em 1em;
+}
+
+#importancia p{ font-family: trial;
+font-size: 19px;
+line-height: 1.8;
+margin-top: 1em;}
+
+ .santo h2{ font-family: demo;
+font-size: 35px;
+color: #710862;
+margin-top: 2em;
+text-align: center;}
+
+#fundo h2{ font-family: demo;
+font-size: 35px;
+color: #710862;
+margin-top: 2em;
+text-align: center;}
+
+#centrar{ display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+}
+#fundo p{margin: 1em 0 10em 0;}
+#piepag {
+  
+        background-color: green;; 
+        color: #fff; 
+        padding: 1.25em 0;
+        text-align: center;
+        margin: 0 0 0 0 ;
+        border: solid black;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-width: 0.3em; 
+    }
+    
+    #piepag p{
+    
+        font-family: trial;
+        font-size: 1.2em;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .social-icons a {
+        display: inline-block;
+        margin: 0 0.625em;
+    }
+    
+    .social-icons img {
+        width: 65%;
+    
+     }
+
+
+    @media only screen and (max-width:600px) 
+    
+    
+    {
+        body {
+            
+        background-repeat: no-repeat;
+        background-size: 50%;   
+        background-color: #B6F3EC;}
+
+    #fundadores h1 {font-size: 50px;}
+    #fundadores img {width: 95%; }
+
+    #años{ text-align: left;
+    width: 100%;
+display: block;}
+
+    #años .bb {width: 100%;}
+
+    #años .cc {width: 100%;}
+
+    #centrar .si {width: 100%;}
+
+    #menu #potato{
+
+        width: 30% !important;
+        margin: 2em 11em 2em 11em !important;
+        border-radius: 10em;
+        background-color: aliceblue;
+        
+    }
+
+    #menu section {
+        border: solid black;
+        border-width: 0.2em;
+        padding:1.5em 0 1.5em 0;
+        margin: 0 0 0 0 !important;
+        background-color: green;
+        border-top-left-radius: 2.5em;
+        border-top-right-radius: 2.5em;
+    }
+
+        
+    }
+        
+    
